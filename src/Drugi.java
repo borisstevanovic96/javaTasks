@@ -54,7 +54,7 @@ public class Drugi {
 		Scanner scanner = new Scanner(System.in);
 
         System.out.print("Unesite string sacinjen od cifara: ");
-        String name = scanner.nextLine();
+        String digitsString = scanner.nextLine();
         longestSequence(name);
 	}
 }
