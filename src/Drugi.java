@@ -23,11 +23,9 @@ public class Drugi {
 				j++;
 				if(j>max) {
 					max = j;
-					//maxString += s2;
 					maxString = pomocniString + s2;
 					pomocniString += s2;
 				}else {
-					//maxString += s2;
 					maxString = pomocniString + s2;
 					pomocniString += s2;
 				}
@@ -37,7 +35,6 @@ public class Drugi {
 				}
 				maxString = "";
 				k++;
-				//max=1;
 				j=1;
 				pomocniString = s2;
 			}
@@ -58,7 +55,7 @@ public class Drugi {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
+        System.out.print("Unesite string sacinjen od brojeva ");
         String name = scanner.nextLine();
         longestSequence(name);
 	}
