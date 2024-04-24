@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Treci {
 	public static boolean validate(String s) {
 		boolean result = true;
+		if(s.charAt(2)!=':' || s.charAt(1)==':' || s.length()!=5)
+			return false;
 		char c1 = s.charAt(0);
 		char c2 = s.charAt(1);
 		String s1 = String.valueOf(c1);
@@ -24,8 +26,8 @@ public class Treci {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        System.out.print("Unesite string u formatu HH:MM: ");
+        String hoursMinutes = scanner.nextLine();
         System.out.println(validate(name));
 	}
 
