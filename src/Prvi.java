@@ -6,7 +6,7 @@ public class Prvi {
 	    {
 		 int j  = 0;
 	        for (int i = 0; i < str.length()-1; i++) {
-	        	if(str.charAt(i)=='1' && str.charAt(i+1)=='1' && str.charAt(i-1)=='0' && i!=0) {
+	        	if(str.charAt(i)=='1' && str.charAt(i+1)=='1'  && i!=0 && str.charAt(i-1)=='0') {
 	        		j++;
 	        	}
 	        }
