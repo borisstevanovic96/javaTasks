@@ -17,7 +17,7 @@ public class Prvi {
 		
 		Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
+        System.out.print("Unesite binarni string: ");
         String name = scanner.nextLine();
         System.out.println(traverseString(name));
 	}
