@@ -33,7 +33,6 @@ public class Drugi {
 				k++;
 			}else {
 				maxString = "";
-				k++;
 				j=1;
 				pomocniString = s2;
 			}
