@@ -29,10 +29,9 @@ public class Drugi {
 					maxString = pomocniString + s2;
 					pomocniString += s2;
 				}
+				consecutiveDigits[k] = maxString;
+				k++;
 			}else {
-				if(maxString!="") {
-					consecutiveDigits[k] = maxString;
-				}
 				maxString = "";
 				k++;
 				j=1;
@@ -40,7 +39,6 @@ public class Drugi {
 			}
 		}
 		for(int l=0;l<consecutiveDigits.length;l++) {
-			System.out.println(consecutiveDigits[l]);
 			if(consecutiveDigits[l]==null) {
 				consecutiveDigits[l]="";
 			}
@@ -55,7 +53,7 @@ public class Drugi {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Unesite string sacinjen od brojeva ");
+        System.out.print("Unesite string sacinjen od cifara: ");
         String name = scanner.nextLine();
         longestSequence(name);
 	}
