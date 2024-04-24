@@ -10,6 +10,9 @@ public class Prvi {
 	        		j++;
 	        	}
 	        }
+		    if(str.charAt(0)==str.charAt(1)) {
+	        	j++;
+	        }
 	        return j;
 	    }
 	public static void main(String[] args) {
