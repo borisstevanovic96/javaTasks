@@ -10,7 +10,7 @@ public class Prvi {
 	        		j++;
 	        	}
 	        }
-		    if(str.charAt(0)==str.charAt(1)) {
+		    if(str.charAt(0)==str.charAt(1) && str.charAt(2) != '1' && str.length()>=3) {
 	        	j++;
 	        }
 	        return j;
